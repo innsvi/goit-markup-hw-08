@@ -1,0 +1,23 @@
+.header-container {
+    @extend %container;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon-envelop {
+    fill: currentColor;
+  
+  &:hover,
+  &:focus {
+    fill: currentColor;
+  }
+}
+  .icon-tel {
+    fill: currentColor;
+  
+  &:hover,
+  &:focus {
+    fill: currentColor;
+  }
+  }

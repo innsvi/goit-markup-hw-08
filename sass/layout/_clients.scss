@@ -1,0 +1,70 @@
+ .clients {
+    @extend %container;
+
+ &__title {
+    
+    margin-bottom: 30px;
+    
+    @media screen and (min-width: 1200px) {
+        margin-bottom: 50px;
+        }
+    }
+
+&__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+&__item {
+    width: 210px;
+    justify-content: center;
+    align-items: center;
+
+
+    @media screen and (min-width: 768px) {
+        width: 226px;
+        }
+
+    @media screen and (min-width: 1200px) {
+        width: 170px;
+        }
+}
+
+
+&__link {
+    display: inline-block;
+    padding: 16px 52px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--icon-fill);
+    border-radius: 4px;
+    fill: var(--icon-fill);
+    background-color: var(--main-light-color);
+    flex-basis: calc((100% - 30px) / 2);
+
+    transition: border-color 250ms var(--transition-timing-function), fill 250ms var(--transition-timing-function);
+
+
+    @media screen and (min-width: 768px) {
+        padding: 16px 60px;
+        flex-basis: calc((100% - 30px*2) / 3);
+        }
+
+    @media screen and (min-width: 1200px) {
+        padding: 16px 32px;
+        flex-basis: calc((100% - 30px*5) / 6);
+        }
+}
+
+&__icon {
+    margin: 0px;
+}
+
+&__link:hover,
+&__link:focus {
+    fill: var(--accent-color);
+    border-color: var(--accent-color);
+}
+ }

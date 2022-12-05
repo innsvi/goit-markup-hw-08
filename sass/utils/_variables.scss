@@ -1,0 +1,24 @@
+:root {     
+
+     --main-text: #212121;
+     --main-color: #000000;
+     --main-light-color: #FFFFFF;
+     --bg-color-main: #F5F4FA;
+     --hero-bg: #2F303A;
+     --bg-color: rgba(47, 48, 58, 0.8);
+     --accent-color: #2196F3;
+     --secondary-text: #757575;
+     --footer-text: rgba(255, 255, 255, 0.6);
+     ----field-color: rgba(255, 255, 255, 0.3);
+     --icon-fill: #AFB1B8;
+     --bt-active: #188CE8;
+     --links-dark: rgba(255, 255, 255, 0.1);
+     --transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+     --index-header: 100;
+     --index-backdrop: 1000;
+
+// BREAKPOINTS
+     --mobile: 480px;
+     --tablet: 768px;
+     --desktop: 1200px;
+}

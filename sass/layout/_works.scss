@@ -1,0 +1,39 @@
+.works {
+   @extend %container; 
+
+   @media screen and (max-width: 1199.98px) {
+    display: none;
+   }
+
+&__title {
+    margin-bottom: 50px;
+}
+&__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+&__item {
+    position: relative;
+}  
+&__description {
+    display: inline-flex;
+    position:absolute;
+    justify-content: center ;
+    align-items: center;
+
+    width: 370px;
+    height: 70px;
+    bottom: 0px;
+    right: 0px;
+    background-color: var(--bg-color);
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--main-light-color);
+}
+}
