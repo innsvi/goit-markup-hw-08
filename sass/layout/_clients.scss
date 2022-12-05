@@ -18,7 +18,7 @@
     gap: 30px;
 }
 &__item {
-    width: 210px;
+    width: 100%;
     justify-content: center;
     align-items: center;
 
@@ -34,7 +34,8 @@
 
 
 &__link {
-    display: inline-block;
+    width: 100%;
+    display: flex;
     padding: 16px 52px;
     justify-content: center;
     align-items: center;
@@ -59,7 +60,7 @@
 }
 
 &__icon {
-    margin: 0px;
+    margin: 0px;    
 }
 
 &__link:hover,
