@@ -343,9 +343,6 @@ a {
     font-size: 14px;
   }
 }
-.contacts__link:hover, .contacts__link:focus {
-  color: var(--second-color);
-}
 .contacts__icon-envelop {
   fill: currentColor;
 }
