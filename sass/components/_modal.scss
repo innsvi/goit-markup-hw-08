@@ -28,7 +28,7 @@
         width: 528px;
         height: 581px;
     }
-    z-index: var(--index-backdrop);
+    z-index: 1000;
 
     top: 50%;
     left: 50%;
