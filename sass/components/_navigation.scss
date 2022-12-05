@@ -42,7 +42,7 @@
 
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-    .nav__link::after {
+    &::after {
         content: "";
         position: absolute;
         bottom: -1px;
@@ -51,7 +51,7 @@
         display: block;
 
         color: var(--primary-text-color);
-        width: 0;
+      width: 0;
         height: 4px;
         background-color: var(--accent-color);
         border-radius: 2px;
@@ -59,7 +59,7 @@
         transition: width 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 
-    &.current{
+    
         &:hover,
         &:focus {
             color: var(--accent-color);
@@ -67,6 +67,10 @@
             &::after {
                 width: 100%;
             }
-    }
+    
 }
+}
+
+.nav__link.current::after{
+    width: 100%;
 }
